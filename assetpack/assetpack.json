@@ -1,0 +1,21 @@
+{
+  "name": "cthulhu-runner-pixelart",
+  "theme": "lovecraftian-horror",
+  "type": "2d-pixel-art-asset-pack",
+  "version": "1.0.0",
+  "license": "CC0-1.0",
+  "art_style": {
+    "era": "16-bit",
+    "palette": "muted teal, sickly green, sepia, black",
+    "transparency": "alpha (except backgrounds)"
+  },
+  "assets": [
+    {"path": "pixelart/characters/hero_sheet.png", "size": [256, 192], "description": "Player character animation frames"},
+    {"path": "pixelart/enemies/enemies_sheet.png", "size": [256, 192], "description": "Enemy spritesheet (deep one, cultist, tentacled horror)"},
+    {"path": "pixelart/tilesets/tileset.png", "size": [256, 192], "description": "Terrain tileset (stone, moss, wood, runes)"},
+    {"path": "pixelart/props/props_sheet.png", "size": [256, 192], "description": "Props and items sheet"},
+    {"path": "pixelart/backgrounds/bg_sky.png", "size": [256, 64], "description": "Parallax layer 1: sky, moon, village silhouette"},
+    {"path": "pixelart/backgrounds/bg_cliffs.png", "size": [256, 64], "description": "Parallax layer 2: cliffs and dead trees"},
+    {"path": "pixelart/backgrounds/bg_fog.png", "size": [256, 64], "description": "Parallax layer 3: foreground fog"}
+  ]
+}
